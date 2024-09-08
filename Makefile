@@ -1,4 +1,4 @@
-TARGET = app
+TARGET = app.out
 
 C++FLAGS = -std=c++11
 CFLAGS = -Wall $(shell pkg-config --cflags glfw3 assimp)
